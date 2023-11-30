@@ -24,6 +24,9 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+i {
+  padding: 5px;
+}
 
 /* utils */
 body {
@@ -144,4 +147,26 @@ footer {
   text-align: center;
   padding: 30px;
   margin-right: 310px;
+}
+/* cards */
+.section-card {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid black;
+  width: 300px;
+  height: 890px;
+  margin: 40px;
+}
+/* content cards */
+.card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+  width: 299px;
+  height: 50px;
+  text-align: center;
 }
