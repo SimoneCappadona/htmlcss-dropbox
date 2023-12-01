@@ -32,6 +32,10 @@ i {
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+main {
+  background: aliceblue;
+  padding-top: 60px;
+}
 /* DEBUG */
 footer {
   height: 500px;
@@ -45,8 +49,6 @@ footer {
 }
 
 .dropbox-header {
-  display: inline-block;
-  width: 100%;
   padding: 10px;
 }
 
@@ -73,34 +75,25 @@ footer {
 /* main */
 
 .container {
-  display: inline-block;
-  text-align: center;
-  background-color: #b4d0e7;
-  height: 680px;
-  width: 100%;
+  padding-top: 80px;
+  max-width: 1080px;
+  margin: 0 auto;
 }
-.title-container {
-  display: inline-block;
-  width: 90vh;
-}
+
 .title-h1 {
-  flex: 1;
   font-size: 60px;
-  margin-top: 100px;
 }
 .para-container {
-  margin-right: 380px;
-  padding: 90px;
+  display: flex;
+}
+.para-content {
+  padding-top: 115px;
 }
 .para-text {
-  display: inline-block;
   width: 38vh;
   text-align: left;
 }
 /* button prova */
-.button {
-  margin-right: 150px;
-}
 .trial {
   color: white;
   background-color: #0061ff;
@@ -112,16 +105,14 @@ footer {
 }
 .down-main-arrow {
   font-size: 50px;
-  margin-top: 80px;
+  margin-top: 100px;
   cursor: pointer;
 }
 
 .jumbo {
-  position: absolute;
-  width: 800px;
+  position: relative;
   height: 500px;
-  top: 320px;
-  right: 140px;
+  top: 60px;
 }
 /* section */
 .section-container {
@@ -177,7 +168,8 @@ footer {
   text-align: center;
 }
 .text-card {
-  padding: 15px;
+  text-align: left;
+  padding: 25px;
 }
 .comment-card {
   padding: 10px;
@@ -185,10 +177,10 @@ footer {
 .center-button {
   display: flex;
   justify-content: center;
-  padding: 25px;
+  padding: 20px;
 }
 .comment-card-button {
-  width: 300vw;
+  width: 100%;
   color: white;
   background-color: #0061ff;
   border: none;
@@ -232,14 +224,33 @@ footer {
 }
 
 /* first-img-section */
-.first-image-section {
+
+.partner-container {
   display: flex;
-  justify-content: center;
-  margin-top: 150px;
-}
-.first-image {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  width: 600px;
+  margin-top: 50px;
+}
+.text-img-container {
+  text-align: center;
+}
+.partner-button {
+  color: white;
+  background-color: #0061ff;
+  border: none;
+  cursor: pointer;
+  font-size: medium;
+  padding: 10px;
+}
+
+/* Business section */
+.business-container {
+  margin-top: 50px;
+}
+.images-business {
+  display: flex;
+}
+.content-boxes,
+.text-title-business,
+.para-business {
+  padding: 15px;
 }
